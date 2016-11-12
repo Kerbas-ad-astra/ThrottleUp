@@ -20,7 +20,7 @@ Engines tagged with "orbit", "land", "vernier", "vacuum", and "maneuver" are ass
 
 Any (bipropellant) engines left over get 30%.
 
-The order in which patches are applied is: vernier, land, maneuver, then all of the turbopump tags, then orbit, vacuum, "LFO leftovers", and then monoprop.  Whichever one hits an engine first "sticks", so an engine with "vernier boost" gets 15% minThrust, while "vacuum boost" gets 60%.
+The order in which patches are applied is: vernier, land, maneuver, then all of the turbopump tags, then orbit, vacuum, and then leftovers.  Whichever one hits an engine first "sticks", so an engine with "vernier boost" gets 15% minThrust, while "vacuum boost" gets 60%.
 
 ##Dependencies
 
