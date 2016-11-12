@@ -1,0 +1,31 @@
+{
+	"NAME":"ThrottleUp",
+	"URL":"https://raw.githubusercontent.com/Kerbas-ad-astra/ThrottleUp/master/GameData/ThrottleUp/ThrottleUp.version",
+	"DOWNLOAD":"https://github.com/Kerbas-ad-astra/ThrottleUp/releases",
+	"GITHUB":{
+		"USERNAME":"Kerbas-ad-astra",
+		"REPOSITORY":"ThrottleUp",
+		"ALLOW_PRE_RELEASE":false
+	},
+	"VERSION":{
+		"MAJOR":1,
+		"MINOR":0,
+		"PATCH":0,
+		"BUILD":0
+	},
+	"KSP_VERSION":{
+		"MAJOR":1,
+		"MINOR":2,
+		"PATCH":1
+	},
+	"KSP_VERSION_MIN":{
+		"MAJOR":1,
+		"MINOR":2,
+		"PATCH":0
+	},
+	"KSP_VERSION_MAX":{
+		"MAJOR":1,
+		"MINOR":2,
+		"PATCH":1
+	}
+}
