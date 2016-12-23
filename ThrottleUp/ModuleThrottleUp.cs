@@ -90,25 +90,5 @@ namespace ThrottleUp
 				}
 			}
 		}
-
-		public override string GetInfo()
-		{
-			if (mmeng == null)
-			{
-				return string.Format("Minimum engine throttle: {0:N1} kN ({1:P0})", engine.minThrust, engine.throttleMin);
-			}
-			else
-			{
-				if (engines.Count == 1)
-				{
-					return string.Format("Minimum engine throttle (for {2} mode only): {0:N1} kN ({1:P0})", engine.minThrust, engine.throttleMin, engine.engineID);
-				}
-				else
-				{
-					object[] args = { engines[0].minThrust, engines[0].throttleMin, engines[0].engineID, engines[1].minThrust, engines[1].throttleMin, engines[1].engineID };
-					return string.Format("Minimum engine throttle (for {2} mode): {0:N1} kN ({1:P0})\nMinimum engine throttle (for {5} mode): {3:N1} kN ({4:P0})", args);
-				}
-			}
-		}
 	}
 }
