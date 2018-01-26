@@ -1,10 +1,10 @@
-#ThrottleUp
+# ThrottleUp
 
 *Minimum thrusts for bipropellant engines.*
 
 ![ThrottleUp logo](https://github.com/Kerbas-ad-astra/ThrottleUp/raw/master/ThrottleUp%20logo.png)
 
-##Features
+## Features
 
 I feel kind of guilty when I set my leftover booster engine to 5% thrust multiplier and flick the 'shift' button to use it for fine course corrections and orbit adjustment, when I really ought to have RCS thrusters or at least an OMS engine for that stuff, and I feel especially guilty when I do that in my RSS install, since SMURFF is buffing engines to have more thrust and less mass than stock with no downsides.  
 
@@ -22,11 +22,11 @@ Any  engines left over get 30%.
 
 Vernier, land, and maneuver are the "highest-priority" tags, then all of the turbopump tags, and then the rest of the pressure tags (and then leftovers).  Whichever patch matches an engine first "sticks", so an engine with "vernier boost" gets 15% minThrust, while "vacuum boost" gets 60%.
 
-##Dependencies
+## Dependencies
 
 ThrottleUp depends on [**Module Manager**](http://forum.kerbalspaceprogram.com/threads/55219).
 
-##Download and install
+## Download and install
 
 * [**GitHub**](https://github.com/Kerbas-ad-astra/ThrottleUp/releases)
 * CurseForge
@@ -44,15 +44,15 @@ As for mods, just about anything that relies on an engine's throttle can potenti
 
 Please let me know in [**the forum thread**](http://forum.kerbalspaceprogram.com/threads/XXXX) or on [**the GitHub issue tracker**](https://github.com/Kerbas-ad-astra/ThrottleUp/issues) if you find any more!
 
-##Version history and changelog
+## Version history and changelog
 
 * 02016 11 xx (1.0): Initial release
 
-##Roadmap
+## Roadmap
 
 ThrottleUp does what I want it to, and doesn't do anything I don't want it to.  If I find a way to deal with the effects, I will, but that's only a cosmetic issue.  I might adjust the list of tags to look for in each category, and the order in which they are applied, to make engines "fit in" properly, but otherwise it is what it is.
 
-##Credits
+## Credits
 
 Huge thanks to the Squad devs (especially the community members who contributed to the 1.2 release, and especially especially JPLRepo for clarifying this feature to me) for improving engine behavior!
 
@@ -60,6 +60,6 @@ Many thanks as well to ialdeboath and sarbian for Module Manager.
 
 Finally, thanks are owed to the RealFuels developers, for developing an impressive system for enhancing the challenge and realism of rocket launches...and making me wish I had something to get most of the challenge with less of the overhead.  :wink:
 
-##License
+## License
 
 ThrottleUp is copyright 2016 Kerbas_ad_astra and released under the [**GNU GPL v3**](https://www.gnu.org/licenses/gpl-3.0) (or any later version).  If you make a fork or redistribution (unless it's intended to be merged with the master or if I'm handing over central control to someone else), you must give it a different name in addition to the other anti-user-confusion provisions of the GPL (see sections 5a and 7).  All other rights (e.g. the ThrottleUp logo) reserved.
